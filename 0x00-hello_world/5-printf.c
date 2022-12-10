@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- * main -Entry point
+ * main -prints the phrase with proper gramar.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
