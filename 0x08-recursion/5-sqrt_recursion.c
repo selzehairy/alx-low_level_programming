@@ -5,11 +5,11 @@
  *
  * Return: the resulting square root
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n, int i)
 {
 	if (n < 0)
 		return (-1);
-	return (_sqrt_recursion(n, 0));
+	return (actual_sqrt_recursion(n, 0));
 }
 /**
  * actual_sqrt_recursion - recurses to find the natural
